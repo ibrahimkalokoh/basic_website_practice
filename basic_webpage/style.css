@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: gray;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 300;
+  cursor: pointer;
+  
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu li a:hover {
+  color: white;
+}
+.menu li {
+  list-style: none;
+}
+
+
+
+
+
+
+.main{
+  height: 500px;
+  width: 100%;
+  gap: 50px;
+  display: flex;
+  margin: 0px;
+  justify-content: space-around;
+}
+
+
+.image_div {
+  height: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_div img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+
+.text_div {
+  height: 500px;
+  width: 600px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.text_div h1 {
+  font-size: 40px;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.text_div p {
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+.text_div a {
+  color: blue;
+  text-decoration: none;
+}
+.text_div a:hover {
+  text-decoration: underline;
+  color: darkblue;
+
+}
+
+.text_div button{
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.service{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.heading-1{
+  padding: 20px;
+  text-align: center;
+  background-color: gray;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.boxes{
+  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  height: auto;
+  gap: 40px;
+  margin: auto;
+ 
+}
+
+
+
+.box{
+  
+        gap: 10px;
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+        padding: 10px; 
+        margin: 10px;
+        border-radius: 10px;
+}
+
+
+
+.box p{
+  font-style: italic;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  font-size: 18px;
+  color: gray;
+  
+}
+
+
+.box h2{
+  font-family: "Times New Roman", Times, serif;
+  /* font-style: italic; */
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.footer {
+  background-color: gray;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+}
+.footer p {
+  margin: 0;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+} */
