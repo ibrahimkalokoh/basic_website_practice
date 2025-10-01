@@ -4,7 +4,7 @@
 }
 
 .menu {
-  background-color: gray;
+  background-color: #1F2937;
   width: 100%;
   height: 90px;
   display: flex;
@@ -20,11 +20,11 @@
 }
 .menu li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .menu li a:hover {
-  color: white;
+  color: lightgray;
 }
 .menu li {
   list-style: none;
@@ -92,7 +92,7 @@
 }
 
 .text_div button{
-  background-color: gray;
+  background-color: blue;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -101,10 +101,13 @@
   font-size: 16px;
 }
 
+.text_div button:hover {
+  color: lightgray;
+}
 .service{
   width: 100%;
   height: auto;
-  margin: 0px;
+  margin: 10px;
   padding: 10px;
   font-family: "Times New Roman", Times, serif;
   font-weight: 300;
@@ -112,6 +115,7 @@
 }
 
 .heading-1{
+  color: white;
   padding: 20px;
   text-align: center;
   background-color: gray;
@@ -143,7 +147,7 @@
         gap: 10px;
         width: 300px;
         height: 300px;
-        border: 2px solid black;
+        border: 2px solid lightblue;
         padding: 10px; 
         margin: 10px;
         border-radius: 10px;
@@ -163,12 +167,81 @@
 
 .box h2{
   font-family: "Times New Roman", Times, serif;
-  /* font-style: italic; */
   font-weight: bold;
   font-size: 25px;
 }
 
 
+
+
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  height: auto;
+  gap: 40px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(211, 211, 211, 0.596);
+  border-radius: 20px;
+}
+
+
+
+ 
+.card{    
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 300px;
+      height: 300px;
+      border: 2px solid lightblue;
+      padding: 10px; 
+      margin: 10px;
+      border-radius: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+
+.card p{
+  font-style: italic;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  font-size: 18px;
+  color: gray;
+  
+}
+.card h2{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.card a {
+  color: white;
+  text-decoration: none;
+}
+.card a:hover {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.card button{
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.card button:hover {
+  color: lightgray;
+}
 
 
 
